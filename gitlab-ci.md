@@ -148,11 +148,13 @@ Please enter the gitlab-ci description for this runner:
 
 ```
 # image: daocloud.io/baidao/web-deploy:v1.0
-#image: node
+# image: node
 
 stages:
   - testRunnerShell
   - testRunnerDocker
+  - testBuild
+  - testFtp
 
 # 缓存node_modules
 cache:
@@ -192,6 +194,27 @@ testRunnerDocker:
     - npm -v
   only:
     - test
+
+job_test_build:
+  tags:
+    - test-tag
+  stage: testBuild
+  script:
+    # - yarn
+    - yarn run build:dev
+    - cp -R dist_test/ ~/opbuildspace
+  only:
+    - test-build
+
+job_test_sftp:
+  tags:
+    - test-tag
+  stage: testFtp
+  script:
+    - cd ~/shell
+    - sh opftptest.sh
+  only:
+    - test-ftp
 ```
 
 
