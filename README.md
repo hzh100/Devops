@@ -46,9 +46,6 @@
 详情参考：
 
   * [如何理解持续集成、持续交付、持续部署](https://www.zhihu.com/question/23444990)
-  
   * [持续集成、持续交付、持续部署](https://blog.csdn.net/qq_35368183/article/details/84558134)
-   
   * [Devops](https://www.jianshu.com/p/c5d002cf25b9)
-  
   * [Devops概述](https://www.jianshu.com/p/3527daa9a98e)
