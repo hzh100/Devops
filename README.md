@@ -35,7 +35,7 @@
 
 ## 持续部署
 
-  [Wiki](about:blank)的定义
+  [Wiki](https://blog.csdn.net/qq_35368183/article/details/84558134)的定义
   ```
     Continuous delivery (CD or CDE) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing the software, doing so manually.
   ```
