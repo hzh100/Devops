@@ -10,7 +10,7 @@
 
 通俗一点来讲，DevOps要求开发、测试、运维一体化，实现敏捷开发；DevOps从计划、编码、构建，测试、发布、部署，以及运营、监控打通，就是把敏捷开发部门和运维部门之间的围墙打通，形成闭环。DevOps 更偏向于一种对于文化氛围的构建。
 
-[Wiki](about:blank)
+[Wiki](https://en.wikipedia.org/wiki/DevOps)
 ```
   DevOps (a clipped compound of “development” and “operations”) is a software development methodology that combines software development (Dev) with information technology operations (Ops). The goal of DevOps is to shorten the systems development life cycle while also delivering features, fixes, and updates frequently in close alignment with business objectives.
 ```
@@ -18,7 +18,7 @@
 
 ## 持续集成
 
-  [Wiki](about:blank)的定义
+  [Wiki](https://en.wikipedia.org/wiki/Continuous_delivery)的定义
   ```
     continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day.
   ```
@@ -26,7 +26,7 @@
 
 ## 持续交付
 
-  [Wiki](about:blank)的定义
+  [Wiki](https://en.wikipedia.org/wiki/Continuous_delivery)的定义
   ```
     Continuous delivery (CD or CDE) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing the software, doing so manually.
   ```
@@ -35,7 +35,7 @@
 
 ## 持续部署
 
-  [Wiki](https://blog.csdn.net/qq_35368183/article/details/84558134)的定义
+  [Wiki](https://en.wikipedia.org/wiki/Continuous_delivery)的定义
   ```
     Continuous delivery (CD or CDE) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing the software, doing so manually.
   ```
