@@ -129,6 +129,7 @@ Please enter the gitlab-ci description for this runner:
 
 此时此刻， 相信已经注册完成一个runner
 通过 ` 通过vi ~/.gitlab-runner/config.toml ` 打开runner 的配置文件看到之前配置的内容。
+linux git-runer 配置默认位置 `vi /etc/gitlab-runner/config.toml`
 
 ### 启动
 
