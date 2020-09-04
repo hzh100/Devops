@@ -142,6 +142,10 @@ Please enter the gitlab-ci description for this runner:
 
 ## 大功告成 ୧(๑•̀◡•́๑)૭
 
+## gitlab-runner删除无效runner
+```
+  gitlab-runner verify --delete --name xxx
+```
 
 ## 下面贴上自己调试 `runner` 用的 `.gitlab-ci.yml`
 见笑了😆
